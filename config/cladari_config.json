@@ -1,0 +1,36 @@
+{
+  "name": "Cladari Botanical AI",
+  "version": "1.0.0",
+  "powered_by": "Sovria Consciousness Framework",
+
+  "models": {
+    "primary": {
+      "name": "Mistral-Nemo-12B-Instruct",
+      "location": "f2",
+      "endpoint": "http://100.70.249.44:8088",
+      "purpose": "General botanical queries, database operations",
+      "max_tokens": 2048,
+      "temperature": 0.3
+    },
+    "specialist": {
+      "name": "PLLaMa-7B",
+      "location": "f2",
+      "endpoint": "http://100.70.249.44:8089",
+      "purpose": "Deep botanical science, plant pathology",
+      "max_tokens": 1500,
+      "temperature": 0.4
+    }
+  },
+
+  "plantdb": {
+    "api_endpoint": "http://localhost:3000/api",
+    "database": "/Users/davidchinnici/cladari/plantDB/prisma/dev.db"
+  },
+
+  "features": {
+    "vision_analysis": true,
+    "care_automation": true,
+    "disease_diagnosis": true,
+    "breeding_recommendations": true
+  }
+}
