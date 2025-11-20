@@ -23,7 +23,8 @@
   },
 
   "plantdb": {
-    "api_endpoint": "http://localhost:3000/api",
+    "api_endpoint": "http://100.88.172.122:3000/api",
+    "api_endpoint_local": "http://localhost:3000/api",
     "database": "/Users/davidchinnici/cladari/plantDB/prisma/dev.db"
   },
 
